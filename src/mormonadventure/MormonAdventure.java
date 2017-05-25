@@ -5,6 +5,7 @@
  */
 package mormonadventure;
 
+import mormonadventure.classpackage.model.MainMenu;
 import mormonadventure.classpackage.model.Player;
 
 /**
@@ -26,12 +27,19 @@ public class MormonAdventure {
         
         
         
-        
+    
         String playerInfo = playerOne.toString();
         System.out.println(playerInfo);
         
+               
+        MainMenu mainmenuone = new mainmenu();
+        
+        
         
 // TODO code application logic here
+   
+    
+    
     }
     
 }
